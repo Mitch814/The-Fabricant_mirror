@@ -1,0 +1,6 @@
+{
+  "output": "/mnt/c/users/hemme/desktop/code/path_to_dev/sewformer/path_to_sewfactory/output/",
+  "datasets_path": "/mnt/c/users/hemme/desktop/code/path_to_dev/sewformer/path_to_sewfactory",
+  "sim_root": "/mnt/c/users/hemme/desktop/code/path_to_dev/sewformer/path_to_sewfactory",
+  "wandb_username": "pieter-stoop"
+}
