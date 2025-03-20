@@ -18,12 +18,9 @@ import torch.nn as nn
 import sys, os
 
 root_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-pkg_path = "{}/SewFactory/packages".format(root_path)
+pkg_path = "{}/sewformer/SewFactory/packages".format(root_path)
 print(pkg_path)
 sys.path.insert(0, pkg_path)
-sys.path.append(
-    "/mnt/c/users/hemme/desktop/code/path_to_dev/sewformer/SewFactory/packages"
-)
 
 import customconfig
 import data
