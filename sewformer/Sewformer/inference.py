@@ -175,8 +175,10 @@ def is_img_file(fn):
 if __name__ == "__main__":
 
     np.set_printoptions(precision=4, suppress=True)
+    # Load system info from system.json
     system_info = customconfig.Properties("./system.json")
 
+    # Load configuration and arguments from configs/test.yaml
     config, args = get_values_from_args()
 
     shape_experiment = ExperimentWrappper(
