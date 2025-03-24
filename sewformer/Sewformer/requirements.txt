@@ -2,7 +2,7 @@ matplotlib
 sparsemax
 numpy
 requests
-scipy
+scikit-learn
 wandb
 protobuf
 svglib
